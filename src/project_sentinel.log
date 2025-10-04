@@ -1,0 +1,35 @@
+2025-10-04 11:09:25,185 - state.state_manager - INFO - State manager initialized
+2025-10-04 11:09:25,186 - events.generator - INFO - Event generator initialized with output dir: evidence/output
+2025-10-04 11:09:25,186 - __main__ - INFO - Project Sentinel initialized
+2025-10-04 11:09:25,186 - __main__ - INFO - Starting batch processing for 2 minutes...
+2025-10-04 11:09:25,186 - __main__ - INFO - Starting Project Sentinel...
+2025-10-04 11:09:25,186 - parsers.data_parsers - ERROR - Error loading products from data/input/products_list.csv: [Errno 2] No such file or directory: 'data/input/products_list.csv'
+2025-10-04 11:09:25,186 - parsers.data_parsers - ERROR - Error loading customers from data/input/customer_data.csv: [Errno 2] No such file or directory: 'data/input/customer_data.csv'
+2025-10-04 11:09:25,186 - __main__ - ERROR - Failed to load reference data
+2025-10-04 11:09:25,186 - __main__ - ERROR - Failed to load reference data, cannot start
+2025-10-04 11:10:57,938 - state.state_manager - INFO - State manager initialized
+2025-10-04 11:10:57,938 - events.generator - INFO - Event generator initialized with output dir: /Users/dananjaya/Downloads/zebra 2/evidence/output
+2025-10-04 11:10:57,938 - __main__ - INFO - Project Sentinel initialized
+2025-10-04 11:10:57,938 - __main__ - INFO - Starting batch processing for 5 minutes...
+2025-10-04 11:10:57,938 - __main__ - INFO - Starting Project Sentinel...
+2025-10-04 11:10:57,938 - parsers.data_parsers - INFO - Loaded 50 products from /Users/dananjaya/Downloads/zebra 2/data/input/products_list.csv
+2025-10-04 11:10:57,938 - parsers.data_parsers - INFO - Loaded 60 customers from /Users/dananjaya/Downloads/zebra 2/data/input/customer_data.csv
+2025-10-04 11:10:57,938 - state.state_manager - INFO - Loaded 50 products and 60 customers
+2025-10-04 11:10:57,938 - __main__ - INFO - Loaded 50 products and 60 customers
+2025-10-04 11:10:57,938 - streaming.client - INFO - Registered handler for dataset: Current_inventory_data
+2025-10-04 11:10:57,938 - streaming.client - INFO - Registered handler for dataset: POS_Transactions
+2025-10-04 11:10:57,938 - streaming.client - INFO - Registered handler for dataset: RFID_data
+2025-10-04 11:10:57,938 - streaming.client - INFO - Registered handler for dataset: Queue_monitor
+2025-10-04 11:10:57,938 - streaming.client - INFO - Registered handler for dataset: Product_recognism
+2025-10-04 11:10:57,938 - __main__ - INFO - Stream handlers configured
+2025-10-04 11:10:57,938 - streaming.client - INFO - Started streaming client in background thread
+2025-10-04 11:10:57,938 - __main__ - INFO - System Stats: 0 customers, 0 active stations, 0 events generated
+2025-10-04 11:10:57,939 - __main__ - INFO - Project Sentinel started successfully
+2025-10-04 11:10:57,940 - streaming.client - INFO - Connected to streaming server at 127.0.0.1:8765
+2025-10-04 11:10:57,940 - streaming.client - INFO - Starting event processing...
+2025-10-04 11:10:57,940 - streaming.client - INFO - Received banner: {'service': 'project-sentinel-event-stream', 'datasets': ['Current_inventory_data', 'POS_Transactions', 'Product_recognism', 'Queue_monitor', 'RFID_data'], 'events': 13463, 'loop': True, 'speed_factor': 10.0, 'cycle_seconds': 7205.0, 'schema': 'newline-delimited JSON objects'}
+2025-10-04 11:10:58,944 - __main__ - INFO - Batch processing: 4 minutes remaining
+2025-10-04 11:11:27,945 - __main__ - INFO - System Stats: 4 customers, 3 active stations, 181 events generated
+2025-10-04 11:11:57,950 - __main__ - INFO - System Stats: 3 customers, 2 active stations, 260 events generated
+2025-10-04 11:11:58,155 - __main__ - INFO - Batch processing: 3 minutes remaining
+2025-10-04 11:12:27,954 - __main__ - INFO - System Stats: 4 customers, 3 active stations, 264 events generated
