@@ -33,3 +33,117 @@
 2025-10-04 11:11:57,950 - __main__ - INFO - System Stats: 3 customers, 2 active stations, 260 events generated
 2025-10-04 11:11:58,155 - __main__ - INFO - Batch processing: 3 minutes remaining
 2025-10-04 11:12:27,954 - __main__ - INFO - System Stats: 4 customers, 3 active stations, 264 events generated
+2025-10-04 11:31:54,327 - state.state_manager - INFO - State manager initialized
+2025-10-04 11:31:54,330 - events.generator - INFO - Event generator initialized with output dir: D:\Projects\zebra-innovateX\evidence\output
+2025-10-04 11:31:54,331 - __main__ - INFO - Project Sentinel initialized
+2025-10-04 11:31:54,331 - __main__ - INFO - Starting Project Sentinel...
+2025-10-04 11:31:54,331 - parsers.data_parsers - INFO - Loaded 50 products from D:\Projects\zebra-innovateX\data\input\products_list.csv
+2025-10-04 11:31:54,332 - parsers.data_parsers - INFO - Loaded 60 customers from D:\Projects\zebra-innovateX\data\input\customer_data.csv
+2025-10-04 11:31:54,332 - state.state_manager - INFO - Loaded 50 products and 60 customers
+2025-10-04 11:31:54,332 - __main__ - INFO - Loaded 50 products and 60 customers
+2025-10-04 11:31:54,333 - streaming.client - INFO - Registered handler for dataset: Current_inventory_data
+2025-10-04 11:31:54,333 - streaming.client - INFO - Registered handler for dataset: POS_Transactions
+2025-10-04 11:31:54,333 - streaming.client - INFO - Registered handler for dataset: RFID_data
+2025-10-04 11:31:54,333 - streaming.client - INFO - Registered handler for dataset: Queue_monitor
+2025-10-04 11:31:54,334 - streaming.client - INFO - Registered handler for dataset: Product_recognism
+2025-10-04 11:31:54,334 - __main__ - INFO - Stream handlers configured
+2025-10-04 11:31:54,335 - streaming.client - INFO - Started streaming client in background thread
+2025-10-04 11:31:54,336 - __main__ - INFO - System Stats: 0 customers, 0 active stations, 0 events generated
+2025-10-04 11:31:54,336 - __main__ - INFO - Project Sentinel started successfully
+2025-10-04 11:31:54,336 - __main__ - INFO - Project Sentinel is running. Press Ctrl+C to stop.
+2025-10-04 11:31:54,339 - streaming.client - INFO - Connected to streaming server at 127.0.0.1:8765
+2025-10-04 11:31:54,339 - streaming.client - INFO - Starting event processing...
+2025-10-04 11:31:54,340 - streaming.client - INFO - Received banner: {'service': 'project-sentinel-event-stream', 'datasets': ['Current_inventory_data', 'POS_Transactions', 'Product_recognism', 'Queue_monitor', 'RFID_data'], 'events': 13463, 'loop': True, 'speed_factor': 10.0, 'cycle_seconds': 7205.0, 'schema': 'newline-delimited JSON objects'}
+2025-10-04 11:32:24,337 - __main__ - INFO - System Stats: 2 customers, 2 active stations, 181 events generated
+2025-10-04 11:32:54,339 - __main__ - INFO - System Stats: 2 customers, 2 active stations, 260 events generated
+2025-10-04 11:33:24,340 - __main__ - INFO - System Stats: 4 customers, 2 active stations, 264 events generated
+2025-10-04 11:33:54,342 - __main__ - INFO - System Stats: 6 customers, 3 active stations, 313 events generated
+2025-10-04 11:34:24,344 - __main__ - INFO - System Stats: 5 customers, 2 active stations, 396 events generated
+2025-10-04 11:34:54,346 - __main__ - INFO - System Stats: 4 customers, 2 active stations, 583 events generated
+2025-10-04 11:35:24,348 - __main__ - INFO - System Stats: 10 customers, 4 active stations, 609 events generated
+2025-10-04 11:35:54,350 - __main__ - INFO - System Stats: 1 customers, 1 active stations, 615 events generated
+2025-10-04 11:36:24,352 - __main__ - INFO - System Stats: 5 customers, 2 active stations, 660 events generated
+2025-10-04 11:36:54,354 - __main__ - INFO - System Stats: 10 customers, 5 active stations, 759 events generated
+2025-10-04 11:37:24,357 - __main__ - INFO - System Stats: 12 customers, 4 active stations, 1011 events generated
+2025-10-04 11:37:54,360 - __main__ - INFO - System Stats: 2 customers, 2 active stations, 1191 events generated
+2025-10-04 11:38:24,363 - __main__ - INFO - System Stats: 3 customers, 2 active stations, 1237 events generated
+2025-10-04 11:38:54,368 - __main__ - INFO - System Stats: 5 customers, 4 active stations, 1412 events generated
+2025-10-04 11:39:24,370 - __main__ - INFO - System Stats: 10 customers, 3 active stations, 1763 events generated
+2025-10-04 11:39:54,374 - __main__ - INFO - System Stats: 2 customers, 2 active stations, 1906 events generated
+2025-10-04 11:40:24,377 - __main__ - INFO - System Stats: 0 customers, 0 active stations, 1960 events generated
+2025-10-04 11:40:54,380 - __main__ - INFO - System Stats: 7 customers, 5 active stations, 2070 events generated
+2025-10-04 11:41:24,383 - __main__ - INFO - System Stats: 1 customers, 1 active stations, 2077 events generated
+2025-10-04 11:41:54,387 - __main__ - INFO - System Stats: 11 customers, 3 active stations, 2540 events generated
+2025-10-04 11:42:24,393 - __main__ - INFO - System Stats: 4 customers, 3 active stations, 3044 events generated
+2025-10-04 11:42:54,398 - __main__ - INFO - System Stats: 4 customers, 2 active stations, 3275 events generated
+2025-10-04 11:43:24,401 - __main__ - INFO - System Stats: 3 customers, 2 active stations, 3357 events generated
+2025-10-04 11:43:54,406 - __main__ - INFO - System Stats: 5 customers, 2 active stations, 3367 events generated
+2025-10-04 11:44:24,412 - __main__ - INFO - System Stats: 0 customers, 0 active stations, 3381 events generated
+2025-10-04 11:44:54,415 - __main__ - INFO - System Stats: 2 customers, 2 active stations, 3411 events generated
+2025-10-04 11:45:24,421 - __main__ - INFO - System Stats: 1 customers, 1 active stations, 3418 events generated
+2025-10-04 11:45:54,424 - __main__ - INFO - System Stats: 11 customers, 4 active stations, 3488 events generated
+2025-10-04 11:46:24,427 - __main__ - INFO - System Stats: 4 customers, 2 active stations, 3702 events generated
+2025-10-04 11:46:54,429 - __main__ - INFO - System Stats: 5 customers, 3 active stations, 3781 events generated
+2025-10-04 11:47:24,431 - __main__ - INFO - System Stats: 3 customers, 1 active stations, 3785 events generated
+2025-10-04 11:47:54,437 - __main__ - INFO - System Stats: 8 customers, 3 active stations, 3827 events generated
+2025-10-04 11:48:24,442 - __main__ - INFO - System Stats: 6 customers, 3 active stations, 3917 events generated
+2025-10-04 11:48:54,449 - __main__ - INFO - System Stats: 13 customers, 3 active stations, 3960 events generated
+2025-10-04 11:49:24,452 - __main__ - INFO - System Stats: 2 customers, 1 active stations, 4108 events generated
+2025-10-04 11:49:26,623 - __main__ - INFO - Received signal 2, shutting down...
+2025-10-04 11:49:26,623 - __main__ - INFO - Stopping Project Sentinel...
+2025-10-04 11:49:26,623 - streaming.client - INFO - Stopping streaming client...
+2025-10-04 11:49:26,623 - streaming.client - INFO - Disconnected from streaming server
+2025-10-04 11:49:27,122 - __main__ - INFO - Project Sentinel stopped
+2025-10-04 11:49:27,123 - __main__ - INFO - Stopping Project Sentinel...
+2025-10-04 11:49:27,123 - streaming.client - INFO - Stopping streaming client...
+2025-10-04 11:49:27,123 - streaming.client - INFO - Disconnected from streaming server
+2025-10-04 11:49:27,123 - __main__ - INFO - Project Sentinel stopped
+2025-10-04 13:27:43,615 - state.state_manager - INFO - Enhanced state manager initialized
+2025-10-04 13:27:43,961 - events.generator - INFO - Enhanced event generator initialized with output dir: D:\Projects\zebra-innovateX\evidence\output
+2025-10-04 13:27:43,962 - __main__ - INFO - Enhanced Project Sentinel initialized with Business Intelligence
+2025-10-04 13:27:43,962 - __main__ - INFO - Starting batch processing for 2 minutes...
+2025-10-04 13:27:43,962 - __main__ - INFO - Starting Enhanced Project Sentinel with Business Intelligence...
+2025-10-04 13:27:43,964 - parsers.data_parsers - INFO - Loaded 50 products from D:\Projects\zebra-innovateX\data\input\products_list.csv
+2025-10-04 13:27:43,965 - parsers.data_parsers - INFO - Loaded 60 customers from D:\Projects\zebra-innovateX\data\input\customer_data.csv
+2025-10-04 13:27:43,965 - state.state_manager - INFO - Loaded 50 products and 60 customers
+2025-10-04 13:27:43,966 - __main__ - INFO - Loaded 50 products and 60 customers
+2025-10-04 13:27:43,966 - streaming.client - INFO - Registered handler for dataset: Current_inventory_data
+2025-10-04 13:27:43,966 - streaming.client - INFO - Registered handler for dataset: POS_Transactions
+2025-10-04 13:27:43,967 - streaming.client - INFO - Registered handler for dataset: RFID_data
+2025-10-04 13:27:43,967 - streaming.client - INFO - Registered handler for dataset: Queue_monitor
+2025-10-04 13:27:43,967 - streaming.client - INFO - Registered handler for dataset: Product_recognism
+2025-10-04 13:27:43,968 - __main__ - INFO - Stream handlers configured
+2025-10-04 13:27:43,969 - streaming.client - INFO - Started streaming client in background thread
+2025-10-04 13:27:43,970 - __main__ - INFO - System Stats: 0 customers, 0 active stations, 0 events generated
+2025-10-04 13:27:43,971 - __main__ - WARNING - PREDICTIVE ALERT: Predictive Staffing Alert
+2025-10-04 13:27:43,972 - __main__ - INFO - Project Sentinel started successfully with all BI modules active
+2025-10-04 13:27:43,972 - __main__ - WARNING -   Predicted customers in 30 min: 0
+2025-10-04 13:27:43,973 - __main__ - WARNING -   Action needed: Monitor
+2025-10-04 13:27:43,976 - streaming.client - INFO - Connected to streaming server at 127.0.0.1:8765
+2025-10-04 13:27:43,976 - streaming.client - INFO - Starting event processing...
+2025-10-04 13:27:43,977 - streaming.client - INFO - Received banner: {'service': 'project-sentinel-event-stream', 'datasets': ['Current_inventory_data', 'POS_Transactions', 'Product_recognism', 'Queue_monitor', 'RFID_data'], 'events': 13463, 'loop': True, 'speed_factor': 10.0, 'cycle_seconds': 7205.0, 'schema': 'newline-delimited JSON objects'}
+2025-10-04 13:27:44,973 - __main__ - INFO - Batch processing: 1 minutes remaining
+2025-10-04 13:28:13,972 - __main__ - INFO - System Stats: 2 customers, 5 active stations, 169 events generated
+2025-10-04 13:28:43,973 - __main__ - INFO - System Stats: 2 customers, 5 active stations, 248 events generated
+2025-10-04 13:28:43,999 - __main__ - INFO - Batch processing: 0 minutes remaining
+2025-10-04 13:29:13,976 - __main__ - INFO - System Stats: 3 customers, 5 active stations, 252 events generated
+2025-10-04 13:29:43,979 - __main__ - INFO - System Stats: 5 customers, 5 active stations, 301 events generated
+2025-10-04 13:29:43,982 - __main__ - WARNING - BUSINESS INTELLIGENCE ALERT - Top Priorities:
+2025-10-04 13:29:43,983 - __main__ - WARNING -   1. OPERATIONAL ALERT: 1 abnormal trends detected
+2025-10-04 13:29:44,025 - events.generator - INFO - Saved 301 events to D:\Projects\zebra-innovateX\evidence\output\test\events.jsonl
+2025-10-04 13:29:44,028 - events.generator - INFO - Saved summary report to D:\Projects\zebra-innovateX\evidence\output\test\summary_report.json
+2025-10-04 13:29:44,029 - __main__ - INFO - Saved 301 events to test dataset
+2025-10-04 13:29:44,031 - __main__ - INFO - Saved executive summary to D:\Projects\zebra-innovateX\evidence\output\test\executive_summary.json
+2025-10-04 13:29:44,032 - __main__ - INFO - Saved loss prevention report to D:\Projects\zebra-innovateX\evidence\output\test\loss_prevention_report.json
+2025-10-04 13:29:44,033 - __main__ - INFO - Saved high-risk customers report to D:\Projects\zebra-innovateX\evidence\output\test\high_risk_customers.json
+2025-10-04 13:29:44,038 - __main__ - INFO - Saved station health report to D:\Projects\zebra-innovateX\evidence\output\test\station_health_report.json
+2025-10-04 13:29:44,041 - __main__ - INFO - Saved daily summary to D:\Projects\zebra-innovateX\evidence\output\test\daily_summary.json
+2025-10-04 13:29:44,042 - __main__ - INFO - Batch processing completed. Generated 301 events.
+2025-10-04 13:29:44,043 - __main__ - INFO - Business Intelligence Summary:
+2025-10-04 13:29:44,043 - __main__ - INFO -   Total Potential Loss: $0.00
+2025-10-04 13:29:44,043 - __main__ - INFO -   High-Risk Customers: 0
+2025-10-04 13:29:44,044 - __main__ - INFO -   Critical Stations: 0
+2025-10-04 13:29:44,044 - __main__ - INFO - Stopping Project Sentinel...
+2025-10-04 13:29:44,044 - streaming.client - INFO - Stopping streaming client...
+2025-10-04 13:29:44,044 - streaming.client - INFO - Disconnected from streaming server
+2025-10-04 13:29:44,449 - __main__ - INFO - Project Sentinel stopped

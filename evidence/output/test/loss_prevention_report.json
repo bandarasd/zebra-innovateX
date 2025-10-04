@@ -1,0 +1,35 @@
+{
+  "date": "2025-10-04",
+  "total_potential_loss": 1190.0,
+  "top_loss_categories": [
+    {
+      "category": "Barcode Switching",
+      "loss": 830.0
+    },
+    {
+      "category": "Scanner Avoidance",
+      "loss": 360.0
+    }
+  ],
+  "top_risk_stations": [
+    {
+      "station_id": "SCC1",
+      "loss": 1190.0
+    }
+  ],
+  "top_risk_customers": [
+    {
+      "customer_id": "C056",
+      "loss": 800.0
+    },
+    {
+      "customer_id": "Unknown",
+      "loss": 360.0
+    },
+    {
+      "customer_id": "C048",
+      "loss": 30.0
+    }
+  ],
+  "average_incident_value": 595.0
+}

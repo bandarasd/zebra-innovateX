@@ -1,0 +1,67 @@
+[
+  {
+    "station_id": "SCC1",
+    "health_score": 100.0,
+    "overall_health": "EXCELLENT",
+    "issues": [],
+    "requires_maintenance": false,
+    "last_update": "2025-08-13T16:17:05",
+    "uptime_indicators": {
+      "error_rate": "0.0%",
+      "avg_processing_time": "53s",
+      "current_queue": 1
+    }
+  },
+  {
+    "station_id": "RC1",
+    "health_score": 100.0,
+    "overall_health": "EXCELLENT",
+    "issues": [],
+    "requires_maintenance": false,
+    "last_update": "2025-08-13T16:17:05",
+    "uptime_indicators": {
+      "error_rate": "N/A",
+      "avg_processing_time": "N/A",
+      "current_queue": 2
+    }
+  },
+  {
+    "station_id": "SCC2",
+    "health_score": 100.0,
+    "overall_health": "EXCELLENT",
+    "issues": [],
+    "requires_maintenance": false,
+    "last_update": "2025-08-13T16:17:05",
+    "uptime_indicators": {
+      "error_rate": "N/A",
+      "avg_processing_time": "N/A",
+      "current_queue": 2
+    }
+  },
+  {
+    "station_id": "SCC3",
+    "health_score": 100.0,
+    "overall_health": "EXCELLENT",
+    "issues": [],
+    "requires_maintenance": false,
+    "last_update": "2025-08-13T16:17:05",
+    "uptime_indicators": {
+      "error_rate": "N/A",
+      "avg_processing_time": "N/A",
+      "current_queue": 0
+    }
+  },
+  {
+    "station_id": "SCC4",
+    "health_score": 100.0,
+    "overall_health": "EXCELLENT",
+    "issues": [],
+    "requires_maintenance": false,
+    "last_update": "2025-08-13T16:17:05",
+    "uptime_indicators": {
+      "error_rate": "N/A",
+      "avg_processing_time": "N/A",
+      "current_queue": 0
+    }
+  }
+]

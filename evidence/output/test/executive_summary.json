@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-10-04T13:29:44.030288",
+  "kpis": {
+    "total_potential_loss_today": 0,
+    "high_risk_customers": 0,
+    "critical_stations": 0,
+    "active_trend_alerts": 1
+  },
+  "top_priorities": [
+    "OPERATIONAL ALERT: 1 abnormal trends detected"
+  ],
+  "loss_summary": {
+    "date": "2025-10-04",
+    "total_potential_loss": 0,
+    "top_loss_categories": [],
+    "top_risk_stations": [],
+    "top_risk_customers": [],
+    "average_incident_value": 0.0
+  },
+  "high_risk_customers": [],
+  "station_health_overview": {
+    "total_stations": 5,
+    "critical_stations": 0,
+    "avg_health_score": 100.0
+  },
+  "trend_alerts": [
+    {
+      "event_name": "Trend Alert - Queue Length",
+      "metric": "queue_length",
+      "current_value": 5,
+      "baseline_value": 3.0,
+      "increase_percentage": 66.7,
+      "severity": "MEDIUM",
+      "recommended_action": "Open additional checkout lanes immediately"
+    }
+  ]
+}
