@@ -1,0 +1,56 @@
+{
+  "total_events": 301,
+  "event_types": {
+    "Predictive Staffing Alert": 1,
+    "Long Queue Length": 16,
+    "Staffing Needs": 273,
+    "Unexpected Systems Crash": 6,
+    "Scanner Avoidance": 1,
+    "Barcode Switching": 3,
+    "Weight Discrepancies": 1
+  },
+  "unique_stations": 6,
+  "unique_customers": 4,
+  "time_range": {
+    "start": "2025-08-13T16:00:30",
+    "end": "2025-10-04T13:27:43.974301",
+    "duration_seconds": 4483633.974301
+  },
+  "financial_summary": {
+    "total_potential_loss": 1010.0,
+    "high_severity_events": 0,
+    "average_event_value": 3.36
+  },
+  "top_event_types": {
+    "Staffing Needs": 273,
+    "Long Queue Length": 16,
+    "Unexpected Systems Crash": 6,
+    "Barcode Switching": 3,
+    "Predictive Staffing Alert": 1
+  },
+  "detection_coverage": {
+    "required_types": [
+      "Weight Discrepancies",
+      "Long Wait Time",
+      "Long Queue Length",
+      "Unexpected Systems Crash",
+      "Scanner Avoidance",
+      "Inventory Discrepancy",
+      "Barcode Switching"
+    ],
+    "detected_types": [
+      "Weight Discrepancies",
+      "Long Queue Length",
+      "Unexpected Systems Crash",
+      "Scanner Avoidance",
+      "Barcode Switching"
+    ],
+    "missing_types": [
+      "Inventory Discrepancy",
+      "Long Wait Time"
+    ],
+    "coverage_percentage": 71.4
+  },
+  "dataset_type": "test",
+  "generated_at": "2025-10-04T13:29:44.026762"
+}
